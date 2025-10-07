@@ -65,7 +65,7 @@ bool safe_add_double(double a,double b, double& out)
     }
 }
 
-bool simpleSum(std::vector<double> arr,double& result)
+bool simple_sum(std::vector<double> arr,double& result)
 {
     // проверка на пустой массив
     if (arr.empty())
